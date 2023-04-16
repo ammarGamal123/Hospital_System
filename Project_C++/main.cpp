@@ -70,7 +70,7 @@ void Print_all_patient() {
             }
         }
         if (found){
-            cout << "specialization " << i + 1 << ":";
+            cout << "specialization " << i << " :";
             for (int j = 0; j < MAX_QUEUE; j++){
                 cout << specs[i][j] << " ";
             }
@@ -106,7 +106,7 @@ void Get_next_patient(){
     if (!empty(spec)){
         cout << "Sorry Dr, There is No Patient come next time please!" << endl;
     }
-    cout << "Dear" << specs[spec][0] << " Please Go to the Doctor." << endl;
+    cout << "Dear " << specs[spec][0] << " Please Go to the Doctor." << endl;
 
     Pickup_Patient (spec);
 
