@@ -1,7 +1,7 @@
 # Hospital System
 ---
 
-### * What is the project about : 
+### What is the project about : 
 
 1. There are 20 different specializations.
 
