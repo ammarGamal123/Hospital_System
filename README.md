@@ -5,7 +5,7 @@
 
 1. There are 20 different specializations.
 
-2. for each specializations thre are only 5 available spots [queue].
+2. for each specialization there are only 5 available spots [queue].
 
 3. Adding a patient ,
    *read the request specs [1-20]
