@@ -32,10 +32,15 @@ void push_front(int spec , const string &name) {
 
     current++;
 }
+
+
 void push_back(int spec ,const string &name){
     specs[spec][current]=name;
     current++;
 }
+
+
+
 void Add_new_patient(){
     int spec;
     string name;
@@ -74,6 +79,8 @@ void Print_all_patient() {
     }
     Hospital_System();
 }
+
+
 bool empty (int spec){
     for (int i = 0;i < MAX_QUEUE; i++){
         if (!specs[spec][i].empty())
@@ -81,6 +88,7 @@ bool empty (int spec){
     }
     return false;
 }
+
 
 void Pickup_Patient (int spec) {
     for (int i = 0; i < MAX_QUEUE - 1; ++i) {
@@ -90,6 +98,7 @@ void Pickup_Patient (int spec) {
     if (current)
         current--;
 }
+
 
 void Get_next_patient(){
     int spec;
@@ -129,6 +138,7 @@ void Hospital_System (){
         Hospital_System();
     }
 }
+
 
 int main() {
     Hospital_System();
