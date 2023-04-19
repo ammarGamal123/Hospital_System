@@ -7,7 +7,7 @@ using namespace std;
 const int MAX_QUEUE = 5;
 const int MAX_SPECS = 20;
 
-string specs[MAX_SPECS][MAX_QUEUE];
+string specs[MAX_SPECS + 1][MAX_QUEUE];
 int current;
 
 
