@@ -11,7 +11,9 @@ int current;
 
 
 void Hospital_System();
+
 struct Deque {
+
     string specs[MAX_SPECS][MAX_QUEUE];
     
     void push_front(int spec , const string &name){
@@ -22,6 +24,7 @@ struct Deque {
         
         current ++;
     }
+
     void push_back(int spec , const string &name){
         specs[spec][current] = name;
         
@@ -111,6 +114,7 @@ void Add_new_patient (){
 }
 
 void Hospital_System (){
+
     cout << "\n\n\t\t\tWelcome To My Hospital System Project" << endl
          << "\t\t\t*************************************\n\n" << endl
          << "Please Enter your choice from the menu:" << endl
